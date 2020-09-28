@@ -1,7 +1,7 @@
 {
-  "name": "uiTest",
+  "name": "ui-test-tauros",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,7 +10,7 @@
     "test": "jest",
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006",
-    "build": "webpack -- mode production",
+    "build": "webpack --mode production",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -57,5 +57,20 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "testing version",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeezascodes/ui-test.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "jeezascodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeezascodes/ui-test/issues"
+  },
+  "homepage": "https://github.com/jeezascodes/ui-test#readme"
 }
