@@ -1,6 +1,6 @@
 {
   "name": "ui-test-tauros",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "private": false,
   "scripts": {
     "android": "react-native run-android",
@@ -59,7 +59,7 @@
     "preset": "react-native"
   },
   "description": "testing version",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeezascodes/ui-test.git"
